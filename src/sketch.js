@@ -1,6 +1,6 @@
 const sketch = (p5) => {
-    const canvasWidth = p5.windowWidth
-    const canvasHeight = p5.windowHeight
+    let canvasWidth = window.innerWidth
+    let canvasHeight = window.innerHeight
     // const d = new Star(500, 300, 4);
 
     // make library globally available
